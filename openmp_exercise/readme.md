@@ -11,3 +11,7 @@ Example programs used in the OpenMP in https://computing.llnl.gov/tutorials/open
 *** omp_mm.c
 
   Simple OpenMP program that showsSCHEDULE(STATIC,CHUNK) directive
+  
+*** omp_workshare2.c
+
+  This example demonstrates use of the OpenMP SECTIONS work-sharing construct Note how the PARALLEL region is divided into separate sections, each of which will be executed by one thread. 
