@@ -6,4 +6,8 @@ Example programs used in the OpenMP in https://computing.llnl.gov/tutorials/open
 
 *** omp_workshare1.c
 
-  Simple OpenMP program that shows schedule(dynamic) and schedule(static), and the concept of trunk. The dynamic is not deterministic, the static is deterministic
+  Simple OpenMP program that shows SCHEDULE(dynamic) and SCHEDULE(static), and the concept of trunk. The dynamic is not deterministic, the static is deterministic
+  
+*** omp_mm.c
+
+  Simple OpenMP program that showsSCHEDULE(STATIC,CHUNK) directive
